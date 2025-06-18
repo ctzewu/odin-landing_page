@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    font-family: "Roboto";
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,7 +13,7 @@ body {
 .header, .section1 {
     background-color: #1f2937;
     flex-direction: column;
-    color: white;
+    color: #f9faf8;
     margin: 0;
 }
 
@@ -15,6 +21,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .header .header-logo {
@@ -40,7 +48,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px;
+    padding: 80px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -60,24 +68,93 @@ body {
     flex-basis: 80px
 }
 
+.section1 h1 {
+    font-weight: 900px;
+}
+
+.section2 {
+    padding: 40px;
+}
+
 .section2 .title {
     text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .wrapper0{
   display: flex;
+  justify-content: center;
+}
+
+.wrapper0 img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
 
 .wrapper1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px;
+  width: 100px;
   text-wrap: wrap;
-  margin: 52px;
+  margin: 20px;
 }
 
-.wrapper0 img {
-    width: 100px;
+.section3 {
+    padding: 20px;
+    background-color: #e5e7eb;
+}
+
+.section3 footer {
+    text-align: right;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.section4 {
+    margin: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    color: #f9faf8;
     height: 100px;
+}
+
+.section4 .container {
+    font-size: 15px;
+}
+
+.section4 h2, .section4 p {
+    margin: 5px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+}
+
+.section4 button{
+    border-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 30px;
 }
